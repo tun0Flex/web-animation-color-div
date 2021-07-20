@@ -1,0 +1,127 @@
+  .box_1 {
+    background: linear-gradient(-50deg, #c0392b, #d35400, #f39c12, #2980b9, #8e44ad, #e84393);
+    background-size: 320% 200%;
+    animation: Gradient 5s ease infinite;
+    position: relative;
+    overflow: hidden;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem 0 1rem;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding: 30px;
+    font-size: 18px
+  }
+
+  .box_2 {
+    background: linear-gradient(-50deg, #00b894, #00cec9, #0984e3, #6c5ce7, #fdcb6e, #e17055);
+    background-size: 320% 200%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem 0 1rem;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding: 30px;
+    font-size: 18px
+  }
+
+  .box_3 {
+    background: linear-gradient(-50deg, #4b6584, #3867d6, #4b7bec, #2d98da, #45aaf2, #fc5c65);
+    background-size: 320% 200%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem 0 1rem;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding: 30px;
+    font-size: 18px
+  }
+
+  .box_4 {
+    background: linear-gradient(-50deg, #2c3e50, #34495e, #222f3e, #576574, #0c2461, #1e3799);
+    background-size: 320% 200%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem 0 1rem;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding: 30px;
+    font-size: 18px
+  }
+
+  .fa-beat {
+    animation: fa-beat 3.5s ease infinite
+  }
+
+  .fa-lg {
+      font-size: 1.33333333em;
+      line-height: .75em;
+      margin-left: 90%;
+      vertical-align: -15%;
+  }
+
+  a {
+      /* color: #ff1100; */
+      text-decoration: none;
+      outline: none;
+      transition: all 0.15s;
+  }
+
+  b {
+      font-weight: 700;
+      padding: 0;
+      transition: color 1.2s;
+  }
+
+  @keyframes fa-beat {
+    0% {
+      transform: scale(1)
+    }
+    5% {
+      transform: scale(1.25)
+    }
+    20% {
+      transform: scale(1)
+    }
+    30% {
+      transform: scale(1)
+    }
+    35% {
+      transform: scale(1.25)
+    }
+    50% {
+      transform: scale(1)
+    }
+    55% {
+      transform: scale(1.25)
+    }
+    70% {
+      transform: scale(1)
+    }
+  }
+
+  @keyframes Gradient {
+    0% {
+       background-position:0 50%
+    }
+    50% {
+       background-position:100% 50%
+    }
+    100% {
+       background-position:0 50%
+    }
+  }
